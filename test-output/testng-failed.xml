@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.test.selenium.SignInTest">
+        <methods>
+          <include name="takeScreen"/>
+          <include name="setup"/>
+          <include name="methodName"/>
+          <include name="flushReport"/>
+          <include name="setReport"/>
+          <include name="tearDown"/>
+          <include name="testSignInWithUser"/>
+        </methods>
+      </class> <!-- com.test.selenium.SignInTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

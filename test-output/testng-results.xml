@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-10T14:58:30Z" name="Default suite" finished-at="2021-05-10T14:58:58Z" duration-ms="28585">
+    <groups>
+    </groups>
+    <test started-at="2021-05-10T14:58:30Z" name="Default test" finished-at="2021-05-10T14:58:58Z" duration-ms="28585">
+      <class name="com.test.selenium.SignInTest">
+        <test-method is-config="true" signature="setReport()[pri:0, instance:com.test.selenium.SignInTest@20f5281c]" started-at="2021-05-10T09:58:30Z" name="setReport" finished-at="2021-05-10T09:58:30Z" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.selenium.SignInTest@20f5281c]" started-at="2021-05-10T09:58:30Z" name="setup" finished-at="2021-05-10T09:58:34Z" duration-ms="4713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="methodName()[pri:0, instance:com.test.selenium.SignInTest@20f5281c]" started-at="2021-05-10T09:58:34Z" name="methodName" finished-at="2021-05-10T09:58:35Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodName -->
+        <test-method signature="testSignInWithUser()[pri:0, instance:com.test.selenium.SignInTest@20f5281c]" started-at="2021-05-10T09:58:35Z" name="testSignInWithUser" finished-at="2021-05-10T09:58:58Z" duration-ms="23227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInWithUser -->
+        <test-method is-config="true" signature="takeScreen(org.testng.ITestResult)[pri:0, instance:com.test.selenium.SignInTest@20f5281c]" started-at="2021-05-10T09:58:58Z" name="takeScreen" finished-at="2021-05-10T09:58:58Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignInWithUser status=SUCCESS method=SignInTest.testSignInWithUser()[pri:0, instance:com.test.selenium.SignInTest@20f5281c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.selenium.SignInTest@20f5281c]" started-at="2021-05-10T09:58:58Z" name="tearDown" finished-at="2021-05-10T09:58:58Z" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.test.selenium.SignInTest@20f5281c]" started-at="2021-05-10T09:58:58Z" name="flushReport" finished-at="2021-05-10T09:58:59Z" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.test.selenium.SignInTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
